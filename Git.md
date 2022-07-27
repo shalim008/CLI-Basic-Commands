@@ -30,13 +30,13 @@ git push -u origin master
  
  
 ### Follow these steps to commit project changes to Github
-git add -A or git add .
+   git add -A or git add .
 
-git commit -m "Comment here.." 
+   git commit -m "Comment here.." 
 
-git pull origin master
+   git pull origin master
 
-git push origin master
+   git push origin master
  
 ### Create a Branch to Github
 
