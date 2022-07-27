@@ -69,3 +69,6 @@ obj
 appsettings.json
 
 *.db
+
+
+https://www.youtube.com/watch?v=hufGg2mf7eA
