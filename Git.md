@@ -30,9 +30,9 @@ git push -u origin master
  
  
 ### Follow these steps to commit project changes to Github
-git add -A = Add everything from working directory to stage.
+git add -A or git add .
 
-git commit -m "Comment here.." = Commit code from Stage to Server.
+git commit -m "Comment here.." 
 
 git pull origin master
 
