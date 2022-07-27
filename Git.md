@@ -45,10 +45,18 @@ Git branch yourbranchname = To create new branch
 Git branch = to display all available branch
 
 Git checkout yourbranchname = To change our branch. 
- 
-### Resolve Conflict to Github
-If you dont want to merge the changes and still want to update your local then run: git reset // reset all commit
- 
+
+### Marge or Pull code from one branch to another (ex-master) branch:
+Git checkout master = to select master branch.
+
+Git pull origin master = to pull master branch first
+
+Git branch --merged
+
+Git merge yourbranchname = we are already select master branch so code merge with master branch,
+
+Git push origin marster = push code in master branch
+
 ### Push code in specific branch:
 git add -A = Add everything from working directory to stage.
 
@@ -60,16 +68,12 @@ Git pull
 
 Git push
  
-### Marge or Pull code from one branch to master branch:
-Git checkout master = to select master branch.
+### Resolve Conflict to Github
+If you dont want to merge the changes and still want to update your local then run: git reset // reset all commit
+ 
 
-Git pull origin master = to pull master branch first
+ 
 
-Git branch --merged
-
-Git merge yourbranchname = we are already select master branch so code merge with master branch,
-
-Git push origin marster = push code in master branch
 
 ### Deleting a Branch:
 
