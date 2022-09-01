@@ -1,5 +1,10 @@
 # Basic Git Command
 
+### keep remote files
+ `git merge --strategy-option theirs`
+### keep local files
+ `git merge --strategy-option ours`
+
 
 ### Getting & Creating Projects
 
