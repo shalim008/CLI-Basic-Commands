@@ -6,8 +6,10 @@
 
 
 ### Docker Compose
-	$ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-	$ Docker Commands
+	$ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d   // up docker compose
+	$ docker-compose -f docker-compose.yml -f docker-compose.override.yml down    // down docker compose
+	
+#Docker Commands
 
 
 ### Example docker hub pull :
