@@ -1,8 +1,8 @@
 # Redis Commands
 
     $ docker pull redis
-    $ docker run -d -p 6379:6379 --name aspnet-run redis
-    
+    $ docker run -d -p 6379:6379 --name aspnet-run redis  // run container
+    $ docker logs aspnet-run   // logs 
 
 1
 -- Now we can open interactive terminal for redis
