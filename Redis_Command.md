@@ -1,6 +1,7 @@
 # Redis Commands
 
     $ docker pull redis
+    $ docker run -d -p 6379:6379 --name aspnet-run redis
     
 
 1
