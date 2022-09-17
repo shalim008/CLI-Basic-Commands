@@ -21,3 +21,12 @@ Let me try with
      $ get key
      $ set name mehmet
      $ get name
+
+
+# Required extensions
+
+Required extensions frop Pacakge Manager to implent it .net
+
+1. Microsoft.Extensions.Caching.StackExchangeRedis
+2. 
+  
