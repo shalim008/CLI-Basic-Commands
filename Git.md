@@ -43,13 +43,19 @@
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
- `$ git log `
- `$ git log `
- `$ git checkout develop(switch to source branch) `
- `$ git pull `
- `$ git checkout (target-branch-name) `
- `$ git merge develop (marge source brance with target) `
- `$ git push origin (target-branch-name) `
+ `$ git log`
+ 
+ `$ git log`
+ 
+ `$ git checkout develop(switch to source branch)`
+ 
+ `$ git pull`
+ 
+ `$ git checkout (target-branch-name)`
+ 
+ `$ git merge develop (marge source brance with target)`
+ 
+ `$ git push origin (target-branch-name)`
 
 
 
