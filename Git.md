@@ -57,7 +57,9 @@
  
  `$ git push origin (target-branch-name)`
 
-
+ To quite without comment
+ `$ :q!`
+ 
 
 
 
