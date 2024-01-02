@@ -57,6 +57,8 @@
  
  `$ git push origin (target-branch-name)`
 
+  `$ git merge --continue`
+  
  To quite without comment
  `$ :q!`
  
