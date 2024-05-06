@@ -63,8 +63,8 @@
  `$ :q!`
  
 ########################## Temp Save Files and Retrive ######
- `git stash` | Stash changes in a dirty working directory |
-  `git stash pop` | Stash changes merge with source |
+|  `git stash` | Stash changes in a dirty working directory |
+|   `git stash pop` | Stash changes merge with source |
 
 ### Sharing & Updating Projects
 
