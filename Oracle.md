@@ -18,6 +18,8 @@
 
 7. Let's unlock an existing user to use, because I don't want to use sys user anymore.
    HR default user unlock command -
-   If you database not open RUN "ALTER DATABASE OPEN;" Then
-   "alter user hr account unlock identified by hr;"
+   
+   If you database not open RUN - "ALTER DATABASE OPEN;"
+
+   Then "alter user hr account unlock identified by hr;"
    
