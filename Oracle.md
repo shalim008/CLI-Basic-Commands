@@ -24,4 +24,11 @@
    Then "alter user hr account unlock identified by hr;"
    
 6. Create new user - "CREATE USER shalim IDENTIFIED BY shalim;"
-7. Assigning Role - "GRANT CONNECT, RESOURCE, DBA TO shalim;"  
+7. Assigning Role - "GRANT CONNECT, RESOURCE, DBA TO shalim;"
+8. Next you’ll want to ensure the user has privileges to actually connect to the database and create a session using GRANT CREATE SESSION.
+   
+   "GRANT CREATE SESSION TO shalim WITH ADMIN OPTION;"
+   
+10. We also need to ensure our new user has disk space allocated in the system -
+
+    "GRANT UNLIMITED TABLESPACE TO shalim;"
