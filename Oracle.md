@@ -23,3 +23,5 @@
 
    Then "alter user hr account unlock identified by hr;"
    
+6. Create new user - "CREATE USER shalim IDENTIFIED BY shalim;"
+7. Assigning Role - "GRANT CONNECT, RESOURCE, DBA TO shalim;"  
