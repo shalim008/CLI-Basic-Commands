@@ -6,7 +6,8 @@
 6. TNS configuration -
    Go to your oracle_home folder, in my case "F:\Oracle\Oracle19c_db_home\network\admin"
    Open tnsnames.ora and connection block like in below -
-        ORCLPDB =
+
+  ORCLPDB =
   (DESCRIPTION =
     (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
     (CONNECT_DATA =
